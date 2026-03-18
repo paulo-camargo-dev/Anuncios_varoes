@@ -178,7 +178,7 @@ body {
 
 .poster {
   position: relative;
-  width: min(100%, 820px);
+  width: min(100%, 1020px);
   min-height: 1500px;
   overflow: hidden;
   padding: 48px 42px 36px;
@@ -681,6 +681,16 @@ body {
 .schedule__time {
   font-size: clamp(2.2rem, 5vw, 4rem);
   line-height: 0.95;
+  border-radius: 12px;
+  outline: none;
+}
+
+.schedule__location {
+  max-width: 100%;
+  font-size: clamp(1.05rem, 2vw, 1.55rem);
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: none;
   border-radius: 12px;
   outline: none;
 }
